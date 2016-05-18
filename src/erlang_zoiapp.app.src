@@ -1,0 +1,13 @@
+{application, erlang_zoiapp,
+ [
+  {description, "ZoiApp with Erlang"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { erlang_zoiapp_app, []}},
+  {env, []}
+ ]}.
